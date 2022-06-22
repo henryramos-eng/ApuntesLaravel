@@ -1,0 +1,17 @@
+MIGRAR PROYECTO A GITHUB
+1.- REDIRECCIONAR AL PROYECTO DESDE CONSOLA
+2.- CREAR REPOSITORIO EN GITHUB
+3.- CONSOLA:
+	- git init
+	- git add .
+	- git status
+	- git commit -m "Primer Commit"
+	- git branch -M main
+	- git remote add origin git@github.com:henryramos-eng/Ejemplo_1.git
+	- git push -u origin main
+4.- CLONAR PROYECTO 
+4.1.- CREAMOS PROYECTO
+4.2.- NOS REDIRECCIONAMOS AL ARCHIVO
+	- git clone https://github.com/henryramos-eng/Ejemplo_1.git
+	- composer install
+	- composer update
